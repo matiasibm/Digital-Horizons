@@ -105,6 +105,31 @@ main .row .img-cash {
   height: 6.25rem;
 }
 
+main .row .img-about {
+  height: 31.264rem;
+}
+
+main .row .img-icon-contact {
+  width: 4rem;
+}
+main .row .span-contact {
+  font-weight: 700;
+}
+main .row .button-form {
+  display: flex;
+  background-color: rgba(81, 15, 87, 0.938);
+  color: aliceblue;
+}
+main .row .button-form:hover {
+  background-color: cornsilk;
+  border: 1px solid;
+  color: black;
+}
+main .row #exampleFormControlTextarea1 {
+  resize: none;
+  height: 15rem;
+}
+
 footer {
   margin-top: 6rem;
   height: 12rem;

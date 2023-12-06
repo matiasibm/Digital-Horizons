@@ -1,0 +1,24 @@
+main {
+    .row {
+        .img-icon-contact {
+            width: 4rem;
+        }
+        .span-contact {
+            font-weight: 700;
+        }
+        .button-form {
+            display: flex;
+            background-color: rgba(81, 15, 87, 0.938);
+            color: aliceblue;
+            &:hover {
+                background-color: cornsilk;
+                border: 1px solid;
+                color: black;
+            }
+        }
+        #exampleFormControlTextarea1 {
+            resize: none;
+            height: 15rem;
+        }  
+    }
+}
