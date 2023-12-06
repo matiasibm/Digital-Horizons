@@ -41,4 +41,12 @@ header #navbarNav ul li a:hover {
   color: rgb(220, 43, 226);
 }
 
-/*# sourceMappingURL=style.css.map */
+main section div h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Kanit", sans-serif;
+}
+main section div strong {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
