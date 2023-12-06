@@ -105,4 +105,19 @@ main .row .img-cash {
   height: 6.25rem;
 }
 
+footer {
+  margin-top: 6rem;
+  height: 12rem;
+  background-color: #14162e;
+}
+footer p {
+  color: aliceblue;
+}
+footer ul li .nav-link {
+  color: aliceblue;
+}
+footer ul li .nav-link:hover {
+  color: rgb(220, 43, 226);
+}
+
 /*# sourceMappingURL=style.css.map */

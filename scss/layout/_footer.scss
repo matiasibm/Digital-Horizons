@@ -1,0 +1,18 @@
+footer {
+    margin-top: 6rem;
+    height: 12rem;
+    background-color: #14162e;
+    p {
+        color: aliceblue;
+    }
+    ul {
+        li {
+            .nav-link {
+                color: aliceblue;
+                &:hover {
+                    color: rgb(220, 43, 226)
+                }
+            }
+        }
+    }
+}
