@@ -1,0 +1,46 @@
+header {
+    nav {
+        background-color: #14162e;
+        border-bottom: 4px solid purple;
+        border-bottom-right-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+        div {
+            
+            a{
+                img {
+                    width: 8rem;
+                }
+            }
+            .navbar-collapse {
+                flex-grow: 0;
+            }
+            .navbar-toggler {
+                background-color: aliceblue;
+                span{
+                    background-color: aliceblue
+                };
+            }
+        } 
+    }
+    .navbar {
+        .container-fluid{
+            justify-content: space-around;
+            
+        }
+        
+    }
+    #navbarNav {
+        ul {
+            li{
+                a{
+                    color: aliceblue;
+                    &:hover {
+                        color: rgb(220, 43, 226)
+                    }
+                }
+                
+            }
+        }
+    }
+}   
+

@@ -1,5 +1,3 @@
-/* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -25,20 +23,5 @@ header nav div a img {
 header nav div .navbar-collapse {
   flex-grow: 0;
 }
-header nav div .navbar-toggler {
-  background-color: aliceblue;
-}
-header nav div .navbar-toggler span {
-  background-color: aliceblue;
-}
-header .navbar .container-fluid {
-  justify-content: space-around;
-}
-header #navbarNav ul li a {
-  color: aliceblue;
-}
-header #navbarNav ul li a:hover {
-  color: rgb(220, 43, 226);
-}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css~.map */
