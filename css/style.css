@@ -58,3 +58,43 @@ main section div .btn-lg:hover {
   background-color: cornsilk;
   border: 1px solid;
 }
+
+main .row h2, main h3 {
+  text-align: center;
+}
+main .column-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .column-card .card {
+  border: none;
+  height: 29.875rem;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+}
+main .column-card .card h5 {
+  opacity: 0.6;
+}
+main .column-card .card:hover {
+  background-color: rgb(230, 213, 247);
+}
+main .column-card .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .column-card .card .card-body .btn {
+  width: fit-content;
+  background-color: rgba(81, 15, 87, 0.938);
+  color: aliceblue;
+}
+main .column-card .card .card-body .btn:hover {
+  background-color: cornsilk;
+  border: 1px solid;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

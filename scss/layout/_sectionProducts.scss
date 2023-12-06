@@ -1,0 +1,39 @@
+main {
+    .row h2, h3 {
+        text-align: center;
+    }
+    .column-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .card {
+            h5 {
+                opacity: 0.6;
+            }
+            border: none;
+            height: 29.875rem;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition-duration: 0.4s;
+            &:hover {
+                background-color: rgb(230, 213, 247);
+            }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .btn {
+                width: fit-content;
+                background-color: rgba(81, 15, 87, 0.938);
+                color: aliceblue;
+                &:hover {
+                    background-color: cornsilk;
+                    border: 1px solid;
+                    color: black;
+                }
+            }
+        }
+        }
+    }
+}
