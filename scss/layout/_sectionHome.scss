@@ -10,6 +10,14 @@ main {
             font-size: 1.3rem;
             font-weight: 100;
             }
+            .btn-lg{
+            background-color: rgba(81, 15, 87, 0.938);
+            color: aliceblue;
+                &:hover {
+                    background-color: cornsilk;
+                    border: 1px solid;
+                }
+            }
         }
     }
 }

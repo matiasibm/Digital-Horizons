@@ -50,3 +50,11 @@ main section div strong {
   font-size: 1.3rem;
   font-weight: 100;
 }
+main section div .btn-lg {
+  background-color: rgba(81, 15, 87, 0.938);
+  color: aliceblue;
+}
+main section div .btn-lg:hover {
+  background-color: cornsilk;
+  border: 1px solid;
+}
