@@ -97,4 +97,12 @@ main .column-card .card .card-body .btn:hover {
   color: black;
 }
 
+main .row .pay-mode-txt {
+  text-align: justify;
+}
+main .row .img-cash {
+  width: 10rem;
+  height: 6.25rem;
+}
+
 /*# sourceMappingURL=style.css.map */
