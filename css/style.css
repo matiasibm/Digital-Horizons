@@ -145,4 +145,18 @@ footer ul li .nav-link:hover {
   color: rgb(220, 43, 226);
 }
 
+@media only screen and (max-width: 768px) {
+  main section .column-card {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  main section .carousel-item {
+    height: 20rem;
+  }
+  main section .carousel-item .img-about {
+    height: 20rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
