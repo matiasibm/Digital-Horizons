@@ -26,12 +26,12 @@ main {
             justify-content: space-between;
             .btn {
                 width: fit-content;
-                background-color: rgba(81, 15, 87, 0.938);
-                color: aliceblue;
+                background-color: $background-btn;
+                color: $txt-secondary;
                 &:hover {
-                    background-color: cornsilk;
+                    background-color: $hover-btn;
                     border: 1px solid;
-                    color: black;
+                    color: $txt-primary;
                     }
                 }
             }

@@ -1,6 +1,6 @@
 header {
     nav {
-        background-color: #14162e;
+        background-color: $background-primary;
         border-bottom: 4px solid purple;
         border-bottom-right-radius: 1.5rem;
         border-bottom-left-radius: 1.5rem;
@@ -33,9 +33,9 @@ header {
         ul {
             li{
                 a{
-                    color: aliceblue;
+                    color: $txt-secondary;
                     &:hover {
-                        color: rgb(220, 43, 226)
+                        color: $hover-links;
                     }
                 }
                 

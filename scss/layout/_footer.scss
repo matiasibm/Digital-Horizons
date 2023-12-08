@@ -1,16 +1,16 @@
 footer {
     margin-top: 6rem;
     height: 12rem;
-    background-color: #14162e;
+    background-color: $background-primary;
     p {
-        color: aliceblue;
+        color: $txt-secondary;
     }
     ul {
         li {
             .nav-link {
-                color: aliceblue;
+                color: $txt-secondary;
                 &:hover {
-                    color: rgb(220, 43, 226)
+                    color: $hover-links;
                 }
             }
         }

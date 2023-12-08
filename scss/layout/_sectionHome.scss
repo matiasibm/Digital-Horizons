@@ -1,8 +1,9 @@
 main {
-    section {
+    .row-home {
         align-items: center;
         div {
             h1 {
+            color: $txt-primary;
             font-size: 4rem;
             font-weight: 600;
             font-family: "Kanit", sans-serif;
@@ -12,11 +13,12 @@ main {
             font-weight: 100;
             }
             .btn-lg{
-            background-color: rgba(81, 15, 87, 0.938);
-            color: aliceblue;
+            background-color: $background-btn;
+            color: $txt-secondary;
                 &:hover {
-                    background-color: cornsilk;
-                    border: 1px solid;
+                    color: $txt-primary;
+                    background-color: $hover-btn;
+                    border: 1px solid $txt-primary;
                 }
             }
         }

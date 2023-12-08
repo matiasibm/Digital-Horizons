@@ -35,33 +35,35 @@ header .navbar .container-fluid {
   justify-content: space-around;
 }
 header #navbarNav ul li a {
-  color: aliceblue;
+  color: #F2F3F4;
 }
 header #navbarNav ul li a:hover {
   color: rgb(220, 43, 226);
 }
 
-main section {
+main .row-home {
   align-items: center;
 }
-main section div h1 {
+main .row-home div h1 {
+  color: #17202A;
   font-size: 4rem;
   font-weight: 600;
   font-family: "Kanit", sans-serif;
 }
-main section div strong {
+main .row-home div strong {
   font-size: 1.3rem;
   font-weight: 100;
 }
-main section div .btn-lg {
+main .row-home div .btn-lg {
   background-color: rgba(81, 15, 87, 0.938);
-  color: aliceblue;
+  color: #F2F3F4;
 }
-main section div .btn-lg:hover {
-  background-color: cornsilk;
-  border: 1px solid;
+main .row-home div .btn-lg:hover {
+  color: #17202A;
+  background-color: #FCF3CF;
+  border: 1px solid #17202A;
 }
-main section .img-home {
+main .row-home .img-home {
   border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
@@ -100,12 +102,12 @@ main .column-card .card .card-body {
 main .column-card .card .card-body .btn {
   width: fit-content;
   background-color: rgba(81, 15, 87, 0.938);
-  color: aliceblue;
+  color: #F2F3F4;
 }
 main .column-card .card .card-body .btn:hover {
-  background-color: cornsilk;
+  background-color: #FCF3CF;
   border: 1px solid;
-  color: black;
+  color: #17202A;
 }
 
 main .pay-mode {
@@ -136,12 +138,12 @@ main .row .span-contact {
 main .row .button-form {
   display: flex;
   background-color: rgba(81, 15, 87, 0.938);
-  color: aliceblue;
+  color: #F2F3F4;
 }
 main .row .button-form:hover {
-  background-color: cornsilk;
+  background-color: #FCF3CF;
   border: 1px solid;
-  color: black;
+  color: #17202A;
 }
 main .row #exampleFormControlTextarea1 {
   resize: none;
@@ -154,10 +156,10 @@ footer {
   background-color: #14162e;
 }
 footer p {
-  color: aliceblue;
+  color: #F2F3F4;
 }
 footer ul li .nav-link {
-  color: aliceblue;
+  color: #F2F3F4;
 }
 footer ul li .nav-link:hover {
   color: rgb(220, 43, 226);
