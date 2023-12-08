@@ -1,5 +1,5 @@
-/* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+/* Google Fonts */
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +41,9 @@ header #navbarNav ul li a:hover {
   color: rgb(220, 43, 226);
 }
 
+main section {
+  align-items: center;
+}
 main section div h1 {
   font-size: 4rem;
   font-weight: 600;
@@ -58,6 +61,13 @@ main section div .btn-lg:hover {
   background-color: cornsilk;
   border: 1px solid;
 }
+main section .img-home {
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 main .row h2, main h3 {
   text-align: center;
@@ -69,6 +79,7 @@ main .column-card {
 }
 main .column-card .card {
   border: none;
+  width: 18rem;
   height: 29.875rem;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -97,10 +108,17 @@ main .column-card .card .card-body .btn:hover {
   color: black;
 }
 
-main .row .pay-mode-txt {
+main .pay-mode {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+main .pay-mode .pay-mode-txt {
   text-align: justify;
 }
-main .row .img-cash {
+main .pay-mode .img-cash {
   width: 10rem;
   height: 6.25rem;
 }
@@ -145,9 +163,26 @@ footer ul li .nav-link:hover {
   color: rgb(220, 43, 226);
 }
 
+@media only screen and (max-width: 1200px) {
+  main section {
+    margin-top: 2rem;
+  }
+  main section div h1 {
+    font-size: 3rem;
+  }
+  main section div strong {
+    font-size: 1.1rem;
+  }
+  main section div p {
+    font-size: 0.9rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   main section .column-card {
     margin-bottom: 1rem;
+  }
+  main .row {
+    margin-top: 2rem;
   }
 }
 @media only screen and (max-width: 520px) {

@@ -1,5 +1,10 @@
 main {
-    .row {
+    .pay-mode {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         .pay-mode-txt {
             text-align: justify;
         }
@@ -9,3 +14,6 @@ main {
         }
     }
 }
+
+
+// my-5 text-center align-items-center justify-content-center
