@@ -1,8 +1,7 @@
 main {
     .pay-mode {
+        @include flex(row, center, center);
         text-align: center;
-        align-items: center;
-        justify-content: center;
         margin-top: 2rem;
         margin-bottom: 2rem;
         .pay-mode-txt {
@@ -16,4 +15,3 @@ main {
 }
 
 
-// my-5 text-center align-items-center justify-content-center

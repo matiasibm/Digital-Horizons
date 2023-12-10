@@ -3,9 +3,7 @@ main {
         text-align: center;
     }
     .column-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex(column, center, center);
         .card {
             h5 {
                 opacity: 0.6;
@@ -18,20 +16,18 @@ main {
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             transition-duration: 0.4s;
             &:hover {
-                background-color: rgb(230, 213, 247);
+                background-color: nth($list: $colors, $n: 9);
             }
         .card-body {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            @include flex(column, space-between, start);
             .btn {
                 width: fit-content;
-                background-color: $background-btn;
-                color: $txt-secondary;
+                background-color: nth($list: $colors, $n: 3);
+                color: nth($list: $colors, $n: 6);
                 &:hover {
-                    background-color: $hover-btn;
+                    background-color: nth($list: $colors, $n: 4);
                     border: 1px solid;
-                    color: $txt-primary;
+                    color: nth($list: $colors, $n: 5);
                     }
                 }
             }

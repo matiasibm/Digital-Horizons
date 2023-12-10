@@ -1,7 +1,7 @@
 header {
     nav {
-        background-color: $background-primary;
-        border-bottom: 4px solid purple;
+        background-color: nth($list: $colors, $n: 2);
+        border-bottom: 4px solid nth($list: $colors, $n: 7);
         border-bottom-right-radius: 1.5rem;
         border-bottom-left-radius: 1.5rem;
         div {
@@ -15,9 +15,9 @@ header {
                 flex-grow: 0;
             }
             .navbar-toggler {
-                background-color: aliceblue;
+                background-color: nth($list: $colors, $n: 8);
                 span{
-                    background-color: aliceblue
+                    @extend .navbar-toggler;
                 };
             }
         } 
@@ -33,9 +33,9 @@ header {
         ul {
             li{
                 a{
-                    color: $txt-secondary;
+                    color: nth($list: $colors, $n: 6);
                     &:hover {
-                        color: $hover-links;
+                        color: nth($list: $colors, $n: 7);
                     }
                 }
                 

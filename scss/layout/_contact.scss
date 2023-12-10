@@ -8,12 +8,12 @@ main {
         }
         .button-form {
             display: flex;
-            background-color: $background-btn;
-            color: $txt-secondary;
+            background-color: nth($list: $colors, $n: 3);
+            color: nth($list: $colors, $n: 6);
             &:hover {
-                background-color: $hover-btn;
+                background-color: nth($list: $colors, $n: 4);
                 border: 1px solid;
-                color: $txt-primary;
+                color: nth($list: $colors, $n: 5);
             }
         }
         #exampleFormControlTextarea1 {

@@ -15,7 +15,7 @@ body {
 
 header nav {
   background-color: #14162e;
-  border-bottom: 4px solid purple;
+  border-bottom: 4px solid rgb(220, 43, 226);
   border-bottom-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
@@ -25,11 +25,8 @@ header nav div a img {
 header nav div .navbar-collapse {
   flex-grow: 0;
 }
-header nav div .navbar-toggler {
-  background-color: aliceblue;
-}
-header nav div .navbar-toggler span {
-  background-color: aliceblue;
+header nav div .navbar-toggler, header nav div .navbar-toggler span {
+  background-color: #F0F8FF;
 }
 header .navbar .container-fluid {
   justify-content: space-around;
@@ -77,6 +74,7 @@ main .row h2, main h3 {
 main .column-card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 main .column-card .card {
@@ -98,6 +96,7 @@ main .column-card .card .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: start;
 }
 main .column-card .card .card-body .btn {
   width: fit-content;
@@ -111,9 +110,11 @@ main .column-card .card .card-body .btn:hover {
 }
 
 main .pay-mode {
-  text-align: center;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }

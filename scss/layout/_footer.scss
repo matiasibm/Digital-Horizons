@@ -1,16 +1,16 @@
 footer {
     margin-top: 6rem;
     height: 12rem;
-    background-color: $background-primary;
+    background-color: nth($list: $colors, $n: 2);
     p {
-        color: $txt-secondary;
+        color: nth($list: $colors, $n: 6);
     }
     ul {
         li {
             .nav-link {
-                color: $txt-secondary;
+                color: nth($list: $colors, $n: 6);
                 &:hover {
-                    color: $hover-links;
+                    color: nth($list: $colors, $n: 7);
                 }
             }
         }

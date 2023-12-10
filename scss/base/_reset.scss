@@ -9,7 +9,7 @@
   }
 
   body {
-    background-color: $background-body;
+    background-color: nth($list: $colors, $n: 1);
   }
 
   

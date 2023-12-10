@@ -1,6 +1,7 @@
 @import 'base/fonts';
-@import 'base/variables';
+@import 'base/colorList';
 @import 'base/reset';
+@import 'utilities/mixinFlex';
 @import 'layout/header';
 @import 'layout/sectionHome';
 @import 'layout/sectionProducts';
@@ -8,6 +9,6 @@
 @import 'layout/about';
 @import 'layout/contact';
 @import 'layout/footer';
-@import 'components/mediaTabletLg';
+@import 'components/mediaDesktop';
 @import 'components/mediaTablet';
 @import 'components/mediaMobile';
