@@ -15,7 +15,6 @@ body {
 
 header nav {
   background-color: #14162e;
-  border-bottom: 4px solid rgb(220, 43, 226);
   border-bottom-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
@@ -34,9 +33,6 @@ header .navbar .container-fluid {
 header #navbarNav ul li a {
   color: #F2F3F4;
 }
-header #navbarNav ul li a:hover {
-  color: rgb(220, 43, 226);
-}
 
 main .row-home {
   align-items: center;
@@ -46,6 +42,7 @@ main .row-home div h1 {
   font-size: 4rem;
   font-weight: 600;
   font-family: "Kanit", sans-serif;
+  animation-duration: 1.5s;
 }
 main .row-home div strong {
   font-size: 1.3rem;
@@ -64,11 +61,20 @@ main .row-home .img-home {
   border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 4.2rem;
+  margin-bottom: 4.2rem;
 }
 
-main .row h2, main h3 {
+main .row-products {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+main .row-products h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+main h3 {
   text-align: center;
 }
 main .column-card {
@@ -126,38 +132,71 @@ main .pay-mode .img-cash {
   height: 6.25rem;
 }
 
-main .row .img-about {
+main .row-products {
+  align-items: center;
+}
+main .row-products .title-about {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+main .row-products h3 {
+  margin-bottom: 3rem;
+}
+main .row-products .img-about {
   height: 31.264rem;
 }
 
-main .row .img-icon-contact {
+main .row-contact {
+  text-align: center;
+}
+main .row-contact h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+main .row-contact h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+main .row-contact .column-contact {
+  text-align: center;
+}
+main .row-contact .img-icon-contact {
   width: 4rem;
 }
-main .row .span-contact {
+main .row-contact .span-contact {
   font-weight: 700;
 }
-main .row .button-form {
+main .row-contact .button-form {
   display: flex;
   background-color: rgba(81, 15, 87, 0.938);
   color: #F2F3F4;
 }
-main .row .button-form:hover {
+main .row-contact .button-form:hover {
   background-color: #FCF3CF;
   border: 1px solid;
   color: #17202A;
 }
-main .row #exampleFormControlTextarea1 {
+main .row-contact #exampleFormControlTextarea1 {
   resize: none;
   height: 15rem;
 }
 
 footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-top: 6rem;
   height: 12rem;
   background-color: #14162e;
 }
 footer p {
+  padding-top: 1rem;
   color: #F2F3F4;
+  text-align: center;
+}
+footer ul {
+  justify-content: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #F2F3F4;
 }
 footer ul li .nav-link {
   color: #F2F3F4;
@@ -189,11 +228,17 @@ footer ul li .nav-link:hover {
   }
 }
 @media only screen and (max-width: 520px) {
-  main section .carousel-item {
+  main .row-products .carousel-item {
     height: 20rem;
   }
-  main section .carousel-item .img-about {
+  main .row-products .carousel-item .img-about {
     height: 20rem;
+  }
+  main .row-products .title-about {
+    font-size: 1.4rem;
+  }
+  main .row-products h3 {
+    font-size: 1.2rem;
   }
 }
 

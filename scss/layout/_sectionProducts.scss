@@ -1,5 +1,14 @@
 main {
-    .row h2, h3 {
+    .row-products {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .row-products h2 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    h3 {
         text-align: center;
     }
     .column-card {

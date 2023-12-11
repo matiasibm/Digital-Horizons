@@ -1,5 +1,13 @@
 main {
-    .row {
+    .row-products {
+        .title-about {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            margin-bottom: 3rem;
+        }
+        align-items: center;
         .img-about{
             height: 31.264rem;
         }

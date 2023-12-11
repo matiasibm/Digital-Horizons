@@ -1,12 +1,18 @@
 @media only screen and (max-width: 520px) {
     main {
-        section {
+        .row-products {
             .carousel-item {
                 height: 20rem;
                 .img-about {
                     height: 20rem;
                 }
             }
+        .title-about{
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
         }   
     }
 }

@@ -1,7 +1,6 @@
 header {
     nav {
         background-color: nth($list: $colors, $n: 2);
-        border-bottom: 4px solid nth($list: $colors, $n: 7);
         border-bottom-right-radius: 1.5rem;
         border-bottom-left-radius: 1.5rem;
         div {
@@ -34,9 +33,6 @@ header {
             li{
                 a{
                     color: nth($list: $colors, $n: 6);
-                    &:hover {
-                        color: nth($list: $colors, $n: 7);
-                    }
                 }
                 
             }
