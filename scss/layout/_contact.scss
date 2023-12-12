@@ -1,12 +1,10 @@
 main {
     .row-contact {
         h2 {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        @include margin(3rem, 3rem);
         }
         h3{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        @include margin(1rem, 1rem);
         }
         text-align: center;
         .column-contact {

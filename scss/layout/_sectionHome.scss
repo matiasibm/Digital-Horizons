@@ -27,8 +27,7 @@ main {
             border-radius: 10px 10px 10px 10px;
             -webkit-border-radius: 10px 10px 10px 10px;
             -moz-border-radius: 10px 10px 10px 10px;
-            margin-top: 4.2rem;
-            margin-bottom: 4.2rem;
+            @include margin(4.2rem, 4.2rem);
         }
     }
 }
