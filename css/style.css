@@ -77,6 +77,10 @@ main .row-products {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+main .row-products h1 {
+  text-align: center;
+  font-size: 2rem;
+}
 main .row-products h2 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -100,8 +104,15 @@ main .column-card .card {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition-duration: 0.4s;
 }
-main .column-card .card h5 {
+main .column-card .card h2 {
   opacity: 0.6;
+  font-size: 1.25rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+main .column-card .card h4 {
+  opacity: 0.6;
+  font-size: 1.25rem;
 }
 main .column-card .card:hover {
   background-color: rgb(230, 213, 247);
@@ -153,13 +164,22 @@ main .row-products h3 {
 main .row-products .img-about {
   height: 31.264rem;
 }
+main .row-products span {
+  color: rgba(81, 15, 87, 0.938);
+  font-weight: 800;
+  opacity: 0.6;
+}
 
 main .row-contact {
   text-align: center;
 }
+main .row-contact h1 {
+  font-size: 2rem;
+}
 main .row-contact h2 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
 }
 main .row-contact h3 {
   margin-top: 1rem;
