@@ -1,0 +1,53 @@
+main {
+    .row-products {
+        @include margin(1rem, 1rem);
+    }
+    .row-products h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .row-products h2 {
+        @include margin(3rem, 3rem);
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+    .column-card {
+        @include flex(column, center, center);
+        .card {
+            h2 {
+                opacity: 0.6;
+                font-size: 1.25rem;
+                @include margin(0rem, 0.5rem);
+            }
+            h4 {
+                opacity: 0.6;
+                font-size: 1.25rem;
+            }
+            border: none;
+            width: 18rem;
+            height: 29.875rem;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition-duration: 0.4s;
+            &:hover {
+                background-color: nth($list: $colors, $n: 9);
+            }
+        .card-body {
+            @include flex(column, space-between, start);
+            .btn {
+                width: fit-content;
+                background-color: nth($list: $colors, $n: 3);
+                color: nth($list: $colors, $n: 6);
+                &:hover {
+                    background-color: nth($list: $colors, $n: 4);
+                    border: 1px solid;
+                    color: nth($list: $colors, $n: 5);
+                    }
+                }
+            }
+        }
+    }
+}

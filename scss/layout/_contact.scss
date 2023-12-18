@@ -1,0 +1,39 @@
+main {
+    .row-contact {
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+        @include margin(2rem, 2rem);
+        font-size: 1.8rem;
+        }
+        h3{
+        @include margin(1rem, 1rem);
+        }
+        text-align: center;
+        .column-contact {
+            text-align: center;
+        }
+        .img-icon-contact {
+            width: 4rem;
+            
+        }
+        .span-contact {
+            font-weight: 700;
+        }
+        .button-form {
+            display: flex;
+            background-color: nth($list: $colors, $n: 3);
+            color: nth($list: $colors, $n: 6);
+            &:hover {
+                background-color: nth($list: $colors, $n: 4);
+                border: 1px solid;
+                color: nth($list: $colors, $n: 5);
+            }
+        }
+        #exampleFormControlTextarea1 {
+            resize: none;
+            height: 15rem;
+        }  
+    }
+}

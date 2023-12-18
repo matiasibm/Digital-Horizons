@@ -1,0 +1,16 @@
+main {
+    .pay-mode {
+        @include flex(row, center, center);
+        text-align: center;
+        @include margin(2rem, 2rem);
+        .pay-mode-txt {
+            text-align: justify;
+        }
+        .img-cash {
+            width: 10rem;
+            height: 6.25rem;
+        }
+    }
+}
+
+

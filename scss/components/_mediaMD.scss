@@ -1,0 +1,13 @@
+//Se respetan los breakpoints de boostrap
+@media only screen and (max-width: 768px) {
+    main {
+        section {
+            .column-card {
+                margin-bottom: 1rem;
+            }
+        }
+        .row-home {
+            margin-top: 2rem;
+        }
+    }
+}
