@@ -7,7 +7,15 @@ main {
             font-size: 4rem;
             font-weight: 600;
             font-family: "Kanit", sans-serif;
-            animation-duration: 1.5s
+            animation-duration: 1.8s;
+            }
+            span {
+                background: nth($list: $colors, $n: 2);
+                background: linear-gradient(to right, nth($list: $colors, $n: 2) 0%, nth($list: $colors, $n: 10) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: 700;
+                font-size: 1.1rem;
             }
             strong {
             font-size: 1.3rem;

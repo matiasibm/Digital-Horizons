@@ -42,7 +42,15 @@ main .row-home div h1 {
   font-size: 4rem;
   font-weight: 600;
   font-family: "Kanit", sans-serif;
-  animation-duration: 1.5s;
+  animation-duration: 1.8s;
+}
+main .row-home div span {
+  background: #14162e;
+  background: linear-gradient(to right, #14162e 0%, #B1B0CF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 main .row-home div strong {
   font-size: 1.3rem;
