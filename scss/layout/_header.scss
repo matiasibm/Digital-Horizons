@@ -1,0 +1,42 @@
+header {
+    nav {
+        background-color: nth($list: $colors, $n: 2);
+        border-bottom-right-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+        div {
+            
+            a{
+                img {
+                    width: 8rem;
+                }
+            }
+            .navbar-collapse {
+                flex-grow: 0;
+            }
+            .navbar-toggler {
+                background-color: nth($list: $colors, $n: 8);
+                span{
+                    @extend .navbar-toggler;
+                };
+            }
+        } 
+    }
+    .navbar {
+        .container-fluid{
+            justify-content: space-around;
+            
+        }
+        
+    }
+    #navbarNav {
+        ul {
+            li{
+                a{
+                    color: nth($list: $colors, $n: 6);
+                }
+                
+            }
+        }
+    }
+}   
+

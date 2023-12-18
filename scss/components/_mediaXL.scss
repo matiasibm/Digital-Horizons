@@ -1,0 +1,24 @@
+//Se respetan los breakpoints de boostrap
+@media only screen and (max-width: 1200px) {
+    main {
+        .row-home {
+            margin-top: 2rem;
+            div {
+                h1 {
+                    font-size: 3rem;
+                }
+                strong {
+                    font-size: 1.1rem;
+                }
+                p {
+                    font-size: 0.9rem;
+                }
+            } 
+        }
+        .row-products {
+            .column-card {
+                margin-top: 1rem;
+            }
+        }
+    }
+}

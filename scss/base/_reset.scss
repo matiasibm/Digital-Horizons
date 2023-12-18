@@ -1,0 +1,15 @@
+/* Google Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  body {
+    background-color: nth($list: $colors, $n: 1);
+  }
+
+  
